@@ -5,6 +5,8 @@ public class Main {
         OverlayWindow overlay = new OverlayWindow();
         overlay.showOverlay();
 
+        SystemTrayManager.initTray();
+
         KeyLogger keyLogger = new KeyLogger(overlay);
         keyLogger.startListening();
     }
