@@ -21,6 +21,8 @@ A lightweight and customizable on-screen key overlay for Windows.
 
 This project follows a minimal and efficient design philosophy.
 
+Downloads and installers are available from the [Releases page](https://github.com/thinakaranmanokaran/Key_Overlayer/releases).
+
 ---
 
 ## ✨ Features
