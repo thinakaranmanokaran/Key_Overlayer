@@ -1,0 +1,15 @@
+{
+    "app-version": "1.0",
+    "input": "target",
+    "main-jar": "KeyOverlayApp-1.0-SNAPSHOT-jar-with-dependencies.jar",
+    "main-class": "com.example.Main",
+    "name": "Key Overlayer",
+    "icon": "src/main/resources/icons/app.ico",
+    "vendor": "Thinakaran Manokaran",
+    "type": "exe",
+    "win-console": true,
+    "win-menu": true,
+    "win-shortcut": true,
+    "win-dir-chooser": true,
+    "win-per-user-install": true
+}

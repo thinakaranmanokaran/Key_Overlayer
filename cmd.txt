@@ -1,3 +1,16 @@
 export PATH=$PATH:/c/Program\ Files/apache-maven-3.9.x/bin
 mvn clean install
 mvn exec:java -Dexec.args="-Djnativehook.lib.path=."
+
+jpackage ^
+  --input target ^
+  --main-jar KeyOverlayApp-1.0-SNAPSHOT-jar-with-dependencies.jar ^
+  --main-class com.example.Main ^
+  --name "Key Overlayer" ^
+  --type exe ^
+  --icon src/main/resources/icons/app.ico ^
+  --vendor "Thinakaran Manokaran" ^
+  --win-menu ^
+  --win-shortcut ^
+  --win-dir-chooser ^
+  --win-per-user-install
